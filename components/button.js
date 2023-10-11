@@ -10,8 +10,8 @@ export default function Button({children}) {
 
 const styles = StyleSheet.create({
     button:{
-        backgroundColor: '#121A2C',
-        color: '#FFBA26',
+        backgroundColor: '#d98a6b',
+        color: '#FFF',
         paddingVertical: 8,
         paddingHorizontal: 48,
         borderRadius: 4,

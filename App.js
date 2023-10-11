@@ -28,11 +28,14 @@ const styles = StyleSheet.create({
     backgroundColor: '#FCFBFF',
     alignItems: 'center',
     justifyContent: 'center',
+    height: 900
   },
   title: {
-    color: '#121A2C',
+    color: '#d98a6b',
     fontSize: 34,
     fontWeight: 'bold',
+    top: 20,
+    marginBottom: 20,
   },
   input: {
     backgroundColor: '#FFF',
@@ -40,11 +43,12 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     padding: 8,
     borderRadius: 4,
-    marginTop: 16,
+    marginTop: 40,
+    top: 30,
   }, 
   button:{
-    backgroundColor: '#121A2C',
-    color: '#FFBA26',
+    backgroundColor: '#d98a6b',
+    color: '#FFF',
     paddingVertical: 8,
     paddingHorizontal: 48,
     borderRadius: 4,
@@ -52,9 +56,10 @@ const styles = StyleSheet.create({
     marginBottom: 16
   },
   image: {
-    height: 200,
+    height: 340,
     width: '100%',
     position: 'absolute',
     top: 0,
+    marginBottom: 50
   }
 });

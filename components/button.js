@@ -1,15 +1,15 @@
 import { StyleSheet, Text, TouchableOpacity } from "react-native"
 
-export default function Button({children}) {
+export default function Button({children, ...props}) {
     return (
-        <TouchableOpacity>
+        <TouchableOpacity {...props}>
             <Text style={styles.button}> {children} </Text>
         </TouchableOpacity>
     )
 }
 
 const styles = StyleSheet.create({
-    button:{
+     button:{
         backgroundColor: '#d98a6b',
         color: '#FFF',
         paddingVertical: 8,
